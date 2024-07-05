@@ -1,0 +1,134 @@
+{
+    "peacock.remoteColor": "#87c088",
+    "folder-color.pathColors": [
+        {
+            "folderPath": "7-Rock-The-Vote/client/src/components/",
+            "color": "foldercolorizer.DeepSkyBlue"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/src/context/",
+            "color": "foldercolorizer.Violet"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/x-lesson-requirements-x.js/",
+            "color": "foldercolorizer.CarrotOrange"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/server.js/",
+            "color": "foldercolorizer.DeepPink"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/node_modules/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/package-lock.json/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/package.json/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/.gitignore/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/.env/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/node_modules/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/vite.config.js/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/package-lock.json/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/index.html/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/.gitignore/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/.eslintrc.cjs/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/src/assets/",
+            "color": "foldercolorizer.SlateGray"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/src/",
+            "color": "foldercolorizer.cyan"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/",
+            "color": "foldercolorizer.LemonChiffon"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/models/issue.js/",
+            "color": "foldercolorizer.CarrotOrange"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/models/user.js/",
+            "color": "foldercolorizer.CarrotOrange"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/models/comment.js/",
+            "color": "foldercolorizer.CarrotOrange"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/models/",
+            "color": "foldercolorizer.CarrotOrange"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/routes/",
+            "color": "foldercolorizer.PureGold"
+        },
+        {
+            "folderPath": "7-Rock-The-Vote/client/public/"
+        }
+    ],
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiCyan",
+    "terminal.integrated.tabs.defaultIcon": "zap",
+    "workbench.editor.autoLockGroups": {
+        "terminalEditor": false
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#87c088",
+        "activityBar.background": "#87c088",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#6e6db2",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "editorGroup.border": "#87c088",
+        "panel.border": "#87c088",
+        "sash.hoverBorder": "#87c088",
+        "sideBar.border": "#87c088",
+        "statusBar.background": "#87c088",
+        "statusBar.border": "#87c088",
+        "statusBar.debuggingBackground": "#c087bf",
+        "statusBar.debuggingBorder": "#c087bf",
+        "statusBar.debuggingForeground": "#15202b",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#66ae67",
+        "statusBarItem.remoteBackground": "#87c088",
+        "statusBarItem.remoteForeground": "#15202b",
+        "tab.activeBorder": "#87c088",
+        "titleBar.activeBackground": "#87c088",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.border": "#87c088",
+        "titleBar.inactiveBackground": "#87c08899",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#42b883"
+}
