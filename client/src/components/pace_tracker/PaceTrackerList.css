@@ -1,0 +1,44 @@
+.tracker-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light grey background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 20px;
+    width: 80%; /* Adjust based on your layout */
+    max-width: 600px; /* Ensures the container doesn't get too wide on larger screens */
+}
+
+.tracker-list h2 {
+    color: #333; /* Dark grey for text */
+    margin-bottom: 15px;
+}
+
+.tracker-list p {
+    color: #666; /* Lighter grey for less emphasis */
+    font-size: 16px; /* Adjust based on your preference */
+    line-height: 1.5; /* For better readability */
+}
+
+.tracker-list ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+    margin-top: 20px;
+}
+
+.tracker-list ul li {
+    background-color: #fff; /* White background for list items */
+    border: 1px solid #ddd; /* Light grey border for definition */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between list items */
+    border-radius: 5px; /* Soften the edges */
+}
+
+/* Additional styling for the PaceTrackerInstance component, if needed */
+.pace-tracker-instance {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

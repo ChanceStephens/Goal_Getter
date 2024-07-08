@@ -1,5 +1,5 @@
 {
-    "peacock.remoteColor": "#87c088",
+    "peacock.remoteColor": "#9D8DF1",
     "folder-color.pathColors": [
         {
             "folderPath": "7-Rock-The-Vote/client/src/components/",
@@ -95,6 +95,90 @@
         },
         {
             "folderPath": "7-Rock-The-Vote/client/public/"
+        },
+        {
+            "folderPath": "Goal_Getter/models/",
+            "color": "foldercolorizer.Magenta"
+        },
+        {
+            "folderPath": "Goal_Getter/routes/",
+            "color": "foldercolorizer.LightPink"
+        },
+        {
+            "folderPath": "Goal_Getter/server.js/",
+            "color": "foldercolorizer.DeepPink"
+        },
+        {
+            "folderPath": "Goal_Getter/package-lock.json/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/package.json/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/x-lesson-requirements-x.js/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/.gitignore/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/node_modules/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/client/vite.config.js/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/client/package.json/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/client/package-lock.json/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/client/index.html/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/client/.gitignore/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/client/.eslintrc.cjs/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/client/",
+            "color": "foldercolorizer.DeepSkyBlue"
+        },
+        {
+            "folderPath": "Goal_Getter/client/src/components/daily_dose/",
+            "color": "foldercolorizer.Coral"
+        },
+        {
+            "folderPath": "Goal_Getter/client/src/main.jsx/",
+            "color": "foldercolorizer.LimeGreen"
+        },
+        {
+            "folderPath": "Goal_Getter/client/src/App.jsx/",
+            "color": "foldercolorizer.LimeGreen"
+        },
+        {
+            "folderPath": "Goal_Getter/client/src/App.css/",
+            "color": "foldercolorizer.navy"
+        },
+        {
+            "folderPath": "Goal_Getter/client/src/index.css/",
+            "color": "foldercolorizer.PaleVioletRed"
+        },
+        {
+            "folderPath": "Goal_Getter/client/src/components/",
+            "color": "foldercolorizer.DeepSkyBlue"
         }
     ],
     "terminal.integrated.tabs.defaultColor": "terminal.ansiCyan",
@@ -103,31 +187,31 @@
         "terminalEditor": false
     },
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#87c088",
-        "activityBar.background": "#87c088",
+        "activityBar.activeBackground": "#9d8df1",
+        "activityBar.background": "#9d8df1",
         "activityBar.foreground": "#15202b",
         "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#6e6db2",
-        "activityBarBadge.foreground": "#e7e7e7",
+        "activityBarBadge.background": "#fce7e3",
+        "activityBarBadge.foreground": "#15202b",
         "commandCenter.border": "#15202b99",
-        "editorGroup.border": "#87c088",
-        "panel.border": "#87c088",
-        "sash.hoverBorder": "#87c088",
-        "sideBar.border": "#87c088",
-        "statusBar.background": "#87c088",
-        "statusBar.border": "#87c088",
-        "statusBar.debuggingBackground": "#c087bf",
-        "statusBar.debuggingBorder": "#c087bf",
+        "editorGroup.border": "#9d8df1",
+        "panel.border": "#9d8df1",
+        "sash.hoverBorder": "#9d8df1",
+        "sideBar.border": "#9d8df1",
+        "statusBar.background": "#9d8df1",
+        "statusBar.border": "#9d8df1",
+        "statusBar.debuggingBackground": "#e1f18d",
+        "statusBar.debuggingBorder": "#e1f18d",
         "statusBar.debuggingForeground": "#15202b",
         "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#66ae67",
-        "statusBarItem.remoteBackground": "#87c088",
+        "statusBarItem.hoverBackground": "#7660eb",
+        "statusBarItem.remoteBackground": "#9d8df1",
         "statusBarItem.remoteForeground": "#15202b",
-        "tab.activeBorder": "#87c088",
-        "titleBar.activeBackground": "#87c088",
+        "tab.activeBorder": "#9d8df1",
+        "titleBar.activeBackground": "#9d8df1",
         "titleBar.activeForeground": "#15202b",
-        "titleBar.border": "#87c088",
-        "titleBar.inactiveBackground": "#87c08899",
+        "titleBar.border": "#9d8df1",
+        "titleBar.inactiveBackground": "#9d8df199",
         "titleBar.inactiveForeground": "#15202b99"
     },
     "peacock.color": "#42b883"

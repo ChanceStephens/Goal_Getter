@@ -1,0 +1,28 @@
+.tracker-container{
+    background-image: url(../../../assets/headfirst.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.pace-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  rgba(3, 3, 3, 0.623);
+    text-decoration: none;
+    color: white;
+    border:5px solid rgba(226, 41, 233, 0.7);
+    margin-top: 40px; 
+}

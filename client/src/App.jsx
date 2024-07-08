@@ -1,50 +1,93 @@
+// import React, { useContext } from 'react';
+// import { Routes, Route, Navigate } from 'react-router-dom';
+
+// import Navbar from './components/common/Navbar.jsx';
+// import Welcome from './components/pages/Welcome.jsx'
+// import Home from './components/pages/Home.jsx';
+// import PaceTracker from './components/pages/PaceTracker.jsx';
+// import ProtectedRoute from './components/authentication/ProtectedRoute.jsx';
+// import About from './components/pages/About.jsx';
+
+// import { UserContext } from './components/context/UserContext.jsx';
+
+// export default function App() {
+
+//     const { token, logout } = useContext(UserContext);// Get the user context to check if the user is logged in and to access logout function
+// console.log(token)
+//     return (
+//     <div className="app">
+//         {<Navbar logout={logout} token={token} />}
+//         <Routes>
+//         <Route
+//             path="/"
+//             element={token ? <Navigate to="/home" /> : <Welcome />}
+//         />
+//         <Route
+//             path="/home"
+//             element={
+//             <ProtectedRoute token={token} redirectTo="/">
+//                 <Home />
+//             </ProtectedRoute>
+//             }
+//         />
+//         <Route
+//             path="/pacetracker"
+//             element={
+//             <ProtectedRoute token={token} redirectTo="/">
+//                 <PaceTracker />
+//             </ProtectedRoute>
+//             }
+//         />
+//         <Route path="/about" element={<About />} />
+//         </Routes>
+//     </div>
+//     );
+// }
+
+
+
 import React, { useContext } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
-import Navbar from './components/Navbar.jsx';
-import Auth from './components/Auth.jsx';
-import Profile from './components/Profile.jsx';
-import Public from './components/Public.jsx';
-import ProtectedRoute from './components/ProtectedRoute.jsx';
+import Navbar from './components/common/Navbar.jsx';
+import Welcome from './components/pages/Welcome.jsx'
+import Home from './components/pages/Home.jsx';
+import PaceTracker from './components/pages/PaceTracker.jsx';
+import ProtectedRoute from './components/authentication/ProtectedRoute.jsx';
+import About from './components/pages/About.jsx';
 
-import { UserContext } from './context/UserContext.jsx';
+import { UserContext } from './components/context/UserContext.jsx';
 
 export default function App() {
-  // Get the user context to check if the user is logged in and to access logout function
-  const { token, logout, user } = useContext(UserContext);
-
+  
+  const { token, logout, user } = useContext(UserContext);// Get the user context to check if the user is logged in and to access logout function
+console.log(token)
   return (
     <div className="app">
-      {/* Conditionally rendering the Navbar if a token exists (user is logged in) */}
-      {token && <Navbar logout={logout} />}
-      
-      {/* Setting up routes for the application */}
+      {<Navbar logout={logout} token={token} />}
       <Routes>
-        {/* Route for the landing page. Redirects to profile if logged in, otherwise shows Auth component */}
         <Route
           path="/"
-          element={token ? <Navigate to="/profile" /> : <Auth />}
+          element={token ? <Navigate to="/home" /> : <Welcome />}
         />
-        
-        {/* Protected route for the user's profile. Requires token to access */}
         <Route
-          path="/profile"
+          path="/home"
           element={
             <ProtectedRoute token={token} redirectTo="/">
-              <Profile />
+              <Home />
             </ProtectedRoute>
           }
         />
-        
-        {/* Protected route for the public page. Requires token to access */}
         <Route
-          path="/public"
+          path="/pacetracker"
           element={
             <ProtectedRoute token={token} redirectTo="/">
-              <Public />
+              <PaceTracker />
             </ProtectedRoute>
           }
         />
+
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );

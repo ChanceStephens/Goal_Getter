@@ -44,11 +44,7 @@ authRouter.post('/login', (req, res, next) => {
         }
         // Check if the provided password matches the stored password
         user.checkPassword(req.body.password, (err, isMatch) => {
-            if (err) {
-                res.status(403); // Set HTTP status code to 403 (Forbidden)
-                return next(new Error('Username or Password is incorrect')); // Pass the error to the next middleware
-            }
-            if (!isMatch) {
+            if (err || !isMatch) {
                 res.status(403); // Set HTTP status code to 403 (Forbidden)
                 return next(new Error('Username or Password is incorrect')); // Pass the error to the next middleware
             }
