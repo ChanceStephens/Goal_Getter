@@ -1,0 +1,81 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Changed from center to flex-start */
+    height: 100vh;
+    background-image: url(../../../assets/wormhole.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px; /* Add padding at the top to push content down */
+}
+
+.vschool {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    width: 100%;
+}
+.vschool > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    color: black;
+}
+
+
+.resources {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    width: 100%;
+    align-items: stretch; 
+}
+.resources > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px; 
+    height: 100px; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    border-radius: 10px;
+    border:5px solid rgba(226, 41, 233, 0.7); 
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+    margin: 0 10px; 
+    text-align: center; 
+}
+.resources > a:hover {
+    background-color: rgba(226, 41, 233, 0.7) ;/*rgba(255, 255, 255, 0.5); */
+    transform: scale(1.05); 
+}
+.summary {
+width: 100%;
+height: 200px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.daily-dose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}

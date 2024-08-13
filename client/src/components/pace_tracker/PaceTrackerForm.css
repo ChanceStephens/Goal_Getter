@@ -1,0 +1,21 @@
+.pace-tracker-form > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align form items vertically in the center */
+    justify-content: space-around; /* Distribute space around form items */
+    border-radius: 10px;
+    background-color: rgba(3, 3, 3, 0.623);
+    text-decoration: none;
+    color: white;
+    border: 5px solid rgba(226, 41, 233, 0.7);
+    width: 100%;
+    padding: 40px;
+}
+.pace-tracker-form > form > label {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align label contents vertically in the center */
+    font-size: 1.5em; /* Assuming you want the labels to match the span styling */
+    font-weight: bold;
+    margin: 10px;
+}

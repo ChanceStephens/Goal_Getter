@@ -1,0 +1,31 @@
+.pace-tracker-summary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  rgba(3, 3, 3, 0.623);
+    text-decoration: none;
+    color: white;
+    border:5px solid rgba(226, 41, 233, 0.7); 
+    width: 100%;
+}
+.pace-tracker-summary > h2 {
+    font-size: 2.6em;
+    font-weight: bold;
+    margin: 10px;
+}
+.pace-tracker-summary > p {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2em;
+    margin: 10px;
+}
+span {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px;
+}
